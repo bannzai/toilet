@@ -13,6 +13,7 @@
 		BA53267F258129CA000C1589 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA53267E258129CA000C1589 /* Preview Assets.xcassets */; };
 		BA53268A258129CA000C1589 /* ToiletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA532689258129CA000C1589 /* ToiletTests.swift */; };
 		BA532695258129CA000C1589 /* ToiletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA532694258129CA000C1589 /* ToiletUITests.swift */; };
+		BAB484FF25812E2200DC1BAA /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB484FE25812E2200DC1BAA /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BA532690258129CA000C1589 /* ToiletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA532694258129CA000C1589 /* ToiletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletUITests.swift; sourceTree = "<group>"; };
 		BA532696258129CA000C1589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB484FE25812E2200DC1BAA /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				BA532677258129C9000C1589 /* ToiletApp.swift */,
 				BA532679258129C9000C1589 /* ContentView.swift */,
+				BAB484FE25812E2200DC1BAA /* Notification.swift */,
 				BA53267B258129CA000C1589 /* Assets.xcassets */,
 				BA532680258129CA000C1589 /* Info.plist */,
 				BA53267D258129CA000C1589 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				BA53267A258129C9000C1589 /* ContentView.swift in Sources */,
 				BA532678258129C9000C1589 /* ToiletApp.swift in Sources */,
+				BAB484FF25812E2200DC1BAA /* Notification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

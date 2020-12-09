@@ -10,13 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Button(action: {
-                
-            }, label: {
-                Text("Toilet")
+            Button(action: fire, label: {
+                Text("🚽")
+                    .font(.largeTitle)
             })
         }
+        .onAppear(perform: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                currentNotificationPermitStatus(closure: requestAuthorizationIfNotPermit(settings:))
+            }
+        })
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {
