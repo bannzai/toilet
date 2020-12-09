@@ -37,7 +37,7 @@ func fire() {
     (0...23).forEach { (hour) in
         let dateComponents = DateComponents(hour: hour, minute: 0, second: 0)
         let calendarTrigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-        let request = UNNotificationRequest(identifier: identifier, content: content, trigger: calendarTrigger)
+        let request = UNNotificationRequest(identifier: identifier + "_\(hour)", content: content, trigger: calendarTrigger)
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
     }
 }
